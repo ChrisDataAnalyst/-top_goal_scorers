@@ -1,1 +1,25 @@
-Hi. I'm a data analysis enthusiast. In this analysis, I try to answer the fundamental question: How to choose the best striker in the world?"
+Hi. I'm a data analysis enthusiast. In this analysis, I try to answer the fundamental question: How to choose the best striker in the world? 
+The most objective measure seems to be the ratio of matches played to goals scored.
+However, a player who has played just one match and scored one goal would have a ratio of one goal per match. 
+To ensure fairness, it became necessary to limit the analysis to players who have participated in at least 10 matches. Let's take a look at the data to explore this further.
+Analysis Overview:
+
+1. Top 100 Strikers based on Matches-to-Goals Ratio
+2. Country Analysis: Top 100 Strikers based on Matches-to-Goals Ratio
+
+Queries are included in the 'SQL_Queries' folder, providing insights into the analysis process.
+
+How to Use:
+
+Clone this repository to your local machine.
+Import the provided dataset from 'VideoGameSales.csv' into your preferred SQL database.
+Execute the provided SQL queries to replicate the analyses.
+Explore the visualizations created based on the analysis.
+Visualizations:
+
+Visual representations of the analysis can be found on my novypro. coming soon
+Dataset Source: The dataset was obtained from Kaggle.
+
+Technologies Used:
+
+SQL for data querying and analysis.
