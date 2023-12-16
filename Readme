@@ -4,8 +4,8 @@ However, a player who has played just one match and scored one goal would have a
 To ensure fairness, it became necessary to limit the analysis to players who have participated in at least 10 matches. Let's take a look at the data to explore this further.
 Analysis Overview:
 
-1. Top 100 Strikers based on Matches-to-Goals Ratio
-2. Country Analysis: Top 100 Strikers based on Matches-to-Goals Ratio
+1. Top 50 strikers based on Matches-to-Goals Ratio
+2. Country Analysis: Top 50 strikers based on Matches-to-Goals Ratio
 
 Queries are included in the 'SQL_Queries' folder, providing insights into the analysis process.
 
