@@ -7,19 +7,9 @@ Analysis Overview:
 1. Top 50 strikers based on Matches-to-Goals Ratio
 2. Country Analysis: Top 50 strikers based on Matches-to-Goals Ratio
 
-Queries are included in the 'SQL_Queries' folder, providing insights into the analysis process.
+Queries are included in the file project_1_query.sql.
 
 How to Use:
-
-Clone this repository to your local machine.
-Import the provided dataset from 'VideoGameSales.csv' into your preferred SQL database.
-Execute the provided SQL queries to replicate the analyses.
-Explore the visualizations created based on the analysis.
-Visualizations:
-
-Visual representations of the analysis can be found on my novypro. coming soon
 Dataset Source: The dataset was obtained from Kaggle.
 
-Technologies Used:
-
-SQL for data querying and analysis.
+Technologies Used: SQL for data querying and analysis.
