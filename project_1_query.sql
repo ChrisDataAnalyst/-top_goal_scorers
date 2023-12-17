@@ -1,3 +1,5 @@
+--top five goal-scorers 
+
 select top 50
     matches,
     goal,
@@ -26,3 +28,19 @@ where
     goal > 10 and matches > 50 and citizenship is not null
 order by
     matches_goal, goal desc
+
+
+	
+-- highest-scoring club teams 
+select
+distinct
+sum (a.goals) over (partition by b.[name]) as goal_team,
+b.[name] as club
+
+
+from [Project_1].[dbo].[appearances_1$] a 
+left join [Project_1].[dbo].[clubs_1$] b on a.player_current_club_id = b.club_id
+
+
+order by  goal_team desc
+
